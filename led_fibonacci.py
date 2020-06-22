@@ -8,7 +8,7 @@ LEO_R_PIN = 22 # Red
 led_list = [LED_G_PIN, LED_Y_PIN, LED_R_PIN]
 
 def setup():
-	GPIO.setmode(GPIO0.BCM)
+	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(led_list[0], GPIO.OUT)
 	GPIO.setup(led_list[1], GPIO.OUT)
 	GPIO.setup(led_list[2], GPIO.OUT)
